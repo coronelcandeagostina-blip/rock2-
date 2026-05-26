@@ -9,7 +9,12 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-
+blackground-color:black;
+    color:white; 
+    display: grid; 
+    place-items:center;
+    grid-gap:20px;
+    padding:20px;
     <div class="contenedor-principal">
         <h1>Argentina y la Música</h1>
         
@@ -57,70 +62,3 @@
     </div>
 
 
-</body>
-</html>
-/* --- Estilos Generales --- */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-}
-
-/* --- Contenedor DIV Principal --- */
-.contenedor-principal {
-    width: 80%;
-    margin: 20px auto; /* 20px arriba/abajo y 'auto' para centrarlo horizontalmente */
-    padding: 15px;
-    background-color: #B5E2FA; /* Celeste muy claro */
-    border: 1px solid #d1c4e9; /* Borde azul */
-    border-radius: 8px; /* Opcional: bordes ligeramente redondeados para mejor estética */
-    box-sizing: border-box; /* Asegura que el padding no afecte el ancho del 80% */
-}
-
-/* --- Titulares --- */
-h1 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 40px; /* Titular en Times New Roman de mayor tamaño */
-    color: #1B4332;
-}
-
-h2 {
-    color: blue; /* Elemento h2 con color azul */
-}
-
-/* --- Párrafos --- */
-p {
-    /* Google Font Roboto, peso 500 (mediana) y estilo normal */
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500; 
-    font-style: normal;
-    font-size: 16px;
-    line-height: 1.6;
-    color: #2c3e50;
-}
-
-/* --- Elementos Adicionales (Imagen y Enlaces) --- */
-.bandera {
-    max-width: 200px; /* Limitamos el tamaño para que quede prolijo */
-    display: block;
-    margin: 15px 0;
-    border-radius: 4px;
-}
-
-.enlaces {
-    margin-top: 20px;
-}
-
-.enlaces a {
-    display: inline-block;
-    margin-right: 15px;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    color: #1B4332;
-}
-
-.enlaces a:hover {
-    text-decoration: underline;
-}
